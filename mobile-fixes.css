@@ -1,0 +1,26 @@
+.practice article i{display:none}
+@media (max-width:780px){
+  .intro{padding:64px 7%}
+  .intro .section-no{position:static;font-family:Cairo,sans-serif;font-size:12px;line-height:1.4;color:#c8a46d;margin:0 0 7px}
+  .intro .eyebrow{margin:0 0 15px}
+  .intro h2{font-size:clamp(30px,8vw,37px);line-height:1.45;letter-spacing:-.5px;margin:0 0 20px}
+  .intro>p:not(.eyebrow){font-size:14px;line-height:2;margin:0 0 24px}
+  .practice,.booking,.articles{padding-top:65px;padding-bottom:65px}
+  .practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:32px;border:0}
+  .practice article,.practice article:last-child{min-height:0;padding:16px;border:1px solid #665f53;display:flex;flex-direction:column;gap:12px}
+  .practice article h3{font-size:14px;line-height:1.65;max-width:none;margin:0;overflow-wrap:anywhere}
+  .practice article span{font-size:11px}
+  .practice article i{display:none}
+  .section-head h2,.booking h2,.articles h2{font-size:clamp(30px,8vw,37px)}
+  .hero-copy{padding-top:40px}
+  .hero h1{font-size:clamp(35px,10vw,48px);letter-spacing:-1px}
+  .hero-actions{gap:14px;flex-wrap:wrap}
+  .hero-info{gap:20px;flex-wrap:wrap}
+  .portrait-wrap{height:clamp(330px,115vw,500px)}
+  .portrait-wrap img{object-position:center 15%}
+  .booking-card{width:100%;min-width:0;padding:28px 22px}
+  .nav .brand{min-width:0}
+  .nav .brand b{font-size:16px}
+  .nav .brand small{font-size:8px}
+}
+@media(max-width:340px){.practice-grid{grid-template-columns:1fr}.practice article{gap:6px}.nav{gap:10px}.monogram{width:39px;height:39px}}
